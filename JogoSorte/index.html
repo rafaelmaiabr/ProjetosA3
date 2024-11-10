@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Sorte - Turismo RJ</title>
+  <link href="./dist/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <style>
+    .result-message {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-4"><i class="fas fa-gamepad"></i> Jogo da Sorte - Ganhe Descontos!</h1>
+
+    <!-- Seção do Jogo -->
+    <div class="card mb-4">
+      <div class="card-header bg-info text-white">
+        <h4><i class="fas fa-ticket-alt"></i> Tente a Sorte!</h4>
+      </div>
+      <div class="card-body">
+        <p>Escolha seis números entre 1 e 100 e verifique se você acertou algum dos números sorteados! Cada acerto
+          garante 15% de desconto em produtos e serviços.</p>
+        <div class="form-group">
+          <input type="number" id="num1" class="form-control mb-2" placeholder="Número 1 (1 a 100)">
+          <input type="number" id="num2" class="form-control mb-2" placeholder="Número 2 (1 a 100)">
+          <input type="number" id="num3" class="form-control mb-2" placeholder="Número 3 (1 a 100)">
+          <input type="number" id="num4" class="form-control mb-2" placeholder="Número 4 (1 a 100)">
+          <input type="number" id="num5" class="form-control mb-2" placeholder="Número 5 (1 a 100)">
+          <input type="number" id="num6" class="form-control mb-2" placeholder="Número 6 (1 a 100)">
+        </div>
+        <button id="checkLuck" class="btn btn-primary w-100"><i class="fas fa-check-circle"></i> Verificar
+          Sorte</button>
+        <div class="result-message" id="resultMessage"></div>
+      </div>
+    </div>
+
+    <!-- Seção de Definição de Pagamento -->
+    <div class="card">
+      <div class="card-header bg-success text-white">
+        <h4><i class="fas fa-money-bill-wave"></i> Defina Quanto Deseja Pagar</h4>
+      </div>
+      <div class="card-body">
+        <p>Escolha o valor que deseja pagar pelo serviço ou produto selecionado. Nossa filosofia é permitir que você
+          escolha o valor justo!</p>
+        <div class="form-group">
+          <label for="service">Serviço/Produto:</label>
+          <select class="form-control" id="service">
+            <option value="tour">Tour pela Cidade</option>
+            <option value="experience">Experiência Cultural</option>
+            <option value="carnaval">Ingresso para o Carnaval</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="amount">Valor que deseja pagar:</label>
+          <input type="number" class="form-control" id="amount" placeholder="Digite o valor em R$">
+        </div>
+        <button id="payButton" class="btn btn-success w-100"><i class="fas fa-hand-holding-usd"></i> Confirmar
+          Pagamento</button>
+        <div class="result-message" id="paymentMessage"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('checkLuck').addEventListener('click', function () {
+      // Números pré-definidos para o sorteio
+      const sorteados = [4, 12, 89];
+
+      // Pega os valores digitados pelo cliente
+      const numeros = [
+        parseInt(document.getElementById('num1').value),
+        parseInt(document.getElementById('num2').value),
+        parseInt(document.getElementById('num3').value),
+        parseInt(document.getElementById('num4').value),
+        parseInt(document.getElementById('num5').value),
+        parseInt(document.getElementById('num6').value)
+      ];
+
+      // Verifica quantos números foram acertados
+      let acertos = 0;
+      numeros.forEach(num => {
+        if (sorteados.includes(num)) {
+          acertos++;
+        }
+      });
+
+      // Calcula o desconto
+      const desconto = acertos * 15;
+      const resultMessage = document.getElementById('resultMessage');
+
+      if (acertos > 0) {
+        resultMessage.innerHTML = `<div class="alert alert-success"><i class="fas fa-smile-beam"></i> Parabéns! Você acertou ${acertos} número(s) e ganhou ${desconto}% de desconto!</div>`;
+      } else {
+        resultMessage.innerHTML = `<div class="alert alert-danger"><i class="fas fa-frown"></i> Que pena! Você não acertou nenhum número. Tente novamente!</div>`;
+      }
+    });
+
+    document.getElementById('payButton').addEventListener('click', function () {
+      const service = document.getElementById('service').value;
+      const amount = parseFloat(document.getElementById('amount').value);
+      const paymentMessage = document.getElementById('paymentMessage');
+
+      if (amount > 0) {
+        paymentMessage.innerHTML = `<div class="alert alert-success"><i class="fas fa-check-circle"></i> Você escolheu pagar R$${amount.toFixed(2)} pelo serviço selecionado. Obrigado pela preferência!</div>`;
+      } else {
+        paymentMessage.innerHTML = `<div class="alert alert-warning"><i class="fas fa-exclamation-triangle"></i> Por favor, insira um valor válido para o pagamento.</div>`;
+      }
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
