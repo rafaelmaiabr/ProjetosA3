@@ -1,0 +1,4 @@
+/crud/venv/
+/crud/upload/video/*
+/crud/upload/audio/*
+/crud/upload/txt/*
