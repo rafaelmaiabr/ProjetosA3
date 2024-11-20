@@ -1,39 +1,72 @@
-Trecho 1: em um mundo cada vez mais conectado se destacam as empresas que conseguem captar os dados ter as informações de seus consumidores com maior agilidade e precisão uma tecnologia ou uma maneira que ganhou mais importância nos anos 90 lá com a NASA é o Big Data que continua a revolucionando o mercado depois de tantos anos e a tendência é só melhorar e aumentar cada vez mais no vídeo de hoje falaremos de Cinco exemplos de Big Data E como você pode aplicá-lo no seu negócio e nas suas atividades dentro do digital meu nome é Paulo Pereira sou fundador do projeto A Era dos dados já deixa aqui o seu like se inscreva no canal e Ative o Sininho para receber em primeira mão todos os conteúdos que a gente tem produzido por aqui
-Trecho 2: agora o que é
-Trecho 3: o Big Data é o termo utilizado para se referir a enorme quantidade de dados estruturados e não estruturados gerados a cada segundo cuja finalidade é auxiliar as empresas e as pessoas né os profissionais a tomarem melhores decisões nos seus negócios esse conceito se sustenta em Pilares que são muito conhecidos como cinco vezes e aí eu vou falar aqui sobre cada um deles o primeiro volume que é um conceito básico grande volume de dados gerado a cada segundo a cada minuto a cada momento por meio dos dispositivos eletrônicos e mídias sociais por exemplo Obviamente você pode trazer de diversas Fontes desses dados mas como a gente fala muito do digital aqui tudo que traz informações de mídias digitais do seu site de ferramentas é o máximo de informações possíveis
-Trecho 4: sendo cruzadas para te trazer também o quê variedade né variedade de dados cada vez mais trazendo acesso a diversas fontes e aí você começa a plugar trazendo informações de Google Analytics de Facebook de Instagram ou WhatsApp telegram é ferramentas de e-mail marketing por exemplo cada vez mais a gente ouve sobre as integrações né Que que é isso Você integrar ferramentas para trazer cada vez mais
-Trecho 5: para você como de uma maneira veloz né aí vem o terceiro vê que é de velocidade é você ter de uma maneira ágil a avaliação de grande quantidade e variedade de dados para conseguir captar comportamentos ou entender o interesses ou pegar alguma informação ali dos seus clientes tá bom E aí na sequência vem a ver
-Trecho 6: Não foi possível entender o áudio
-Trecho 7: que atualmente há uma quantidade gigantesca de informações falsas rolando por aí portanto é importante garantir que os dados são verdadeiros e por último é o dado que gera
-Trecho 8: valor e é importante saber distinguir o que é útil para o que a empresa busca e o que não é útil tá bom o valor das informações entender o contexto e as necessidades corretas então tudo que gera valor através dos dados é o que vai permear todos esses vs anteriores tá bom dentro do Big Data Existem duas categorias
-Trecho 9: de estruturação de dados sendo elas
-Trecho 10: estrutura
-Trecho 11: Não foi possível entender o áudio
-Trecho 12: contam com uma estrutura determinada e apresentam informações úteis sobre o perfil de clientes que as empresas querem atingir como localização vendas contatos entre muitos outros tá alguns exemplos quando você quer entender desses dados estruturados entendendo o perfil do Consumidor entendendo Aonde ele está entendendo Qual que é o perfil desse consumidor isso tudo são considerados dados estruturados agora Quais são os dados não estruturados tá eles chegam sem nenhuma definição e é necessário para que você entenda catalogar todas as informações recebidas nas mídias sociais ou Todas aquelas Fontes que eu falei catalogar isso tudo de uma maneira estruturada Esses são os dados não estruturados E essas são as duas maneiras de você fazer isso tá agora que você já sabe os elementos que compõem essa tecnologia podemos falar um pouco sobre as vantagens da sua utilização vem comigo que eu vou começar pelas vantagens
-Trecho 13: do Big Data Tá bom você vai conseguir ter decisões melhores
-Trecho 14: uma estrutura de marketing muito mais aprimorada na estratégias de marketing muito mais aprimo
-Trecho 15: posicionar
-Trecho 16: de uma maneira muito melhor frente a concorrência tá você vai ter mais poder de previsibilidade né mais poder preditivo tá bom E aí obviamente vem muitas outras aplicabilidades que vão te trazer essas vantagens do Big Data né você vai conseguir obviamente não só prever o que vai acontecer nos seus resultados por exemplo nos próximos meses mas o que você deve fazer a partir disso tá bom quando você tá falando de digital quando você entende o que vai o que pode acontecer você já começa a tomar suas estratégias ali dentro e aí eu sempre cito é alguns casos históricos que eu já tive que eu já vivenciei né Trabalhando em outras indústrias antes de começar os nossos negócios aqui na era dos dados na própria desbrava que foi o software
-Trecho 17: desenvolveu eu já tive muita experiência de sentir que a gente estava tomando decisões com base em feeling né Com base no que a gente achava que estava sendo certo seja na contratação de uma influenciador seja no investimento ali no Facebook no Google ou em outros canais mas sem metrificar isso sem ter dados cruzados né dados estruturados e não estruturados sendo cruzados para me responder se eu tava fazendo a coisa certa né a gente sempre brinca que os dados você tem que torturá-los até ele confessar aquilo que você quer que ele responda obviamente de uma maneira assertiva né por isso que existe todas essas ferramentas que a gente falou e essas metodologias mas é muito importante você entender isso vamos ao prometido que a gente falou lá atrás Os Cinco exemplos de empresas de
-Trecho 18: que utilizam o Big Data a
-Trecho 19: a UPS que é uma empresa de logística né gigantesca no mundo cruzou os dados dos sensores veiculares porque eles têm muitos veículos principalmente ali no Estados Unidos distribuindo para o país inteiro com sensores então eles pegaram todo o cruzamento desses dados dos mapas de geolocalização e os requisitos das encomendas dos clientes com a finalidade de diminuir as distâncias percorridas por ano então
-Trecho 20: escalaram isso através do Big Data de uma maneira tão grande que eles conseguiram prever o ano inteiro quanto eles podiam reduzir através do trabalho otimizando O trabalho dos motoristas né a utilização do Big Data gerou uma economia de 85 milhões de milhas por ano e um valor expressivo gasto com combustível ou os custos ali de manutenção além de aumentar obviamente a qualidade de vida dos funcionários isso é muito O que as empresas de delivery hoje o if
-Trecho 21: rap Uber as empresas corner Shop por exemplo as empresas que estão trabalhando com entregas eles estão fazendo muito isso então isso Responde o porquê que essas
-Trecho 22: tem crescido segundo
-Trecho 23: Case da
-Trecho 24: Nike monitora os hábitos e comportamentos Esport
-Trecho 25: do seu público por meio dos aplicativos e dispositivos que eles usam ali nos verbos né nos vestíveis né no relógio e etc conhecidos como os verbos são capazes de gerar informações relacionadas à distância percorrida das pessoas a velocidade que ela está os locais preferidos para treino e etc com isso eles conseguiram criar produtos cada vez mais alinhados as expectativas do seu público-alvo fidelizando cada vez mais os
-Trecho 26: conquistando clientelas e atletas cada vez mais próximos da sua marca então quando a gente vê ali o aplicativo de uma Garmin de uma Nike eles estão colhendo os dados obviamente é bom isso porque ele vai customizar
-Trecho 27: produtos dele para vocês tá bom aí o terceiro
-Trecho 28: Grupo Pão de Açúcar eu gosto muito desse caso porque é um caso aqui que todo mundo conhece né que por meio da disponibilização de programas de recompensa e o do Pão de Açúcar ali é um dos mais reconhecidos né o programa de relacionamento programa de recompensa deles nos clientes lá nos mercados o grupo Pão de Açúcar conseguiu identificar os produtos preferidos
-Trecho 29: desses seus consumidores e assim gerar ofertas personalizadas quando eles chegam na loja por exemplo além de aumentar a fidelização da sua clientela o Big Data forneceu os dados preciosos para o estoque lá do Pão de Açúcar logística etc diminuindo
-Trecho 30: com desperdício e transporte de itens que não são mais consumidos em larga escala é o cruzamento de
-Trecho 31: para previsibilidade quarto
-Trecho 32: da MapLink Esse foi um caso que a minha equipe foi buscar lá fora para trazer aqui pra gente que eu acredito muito que funciona para muitos negócios é uma empresa especializada na digitalização de mapas né que ao testar um software de rastreamento por sa
-Trecho 33: o que cruzava os dados gerados por mais de 400.000 automóveis aqui em São Paulo conseguiu realizar um diagnóstico muito preciso do trânsito e indicando todos os pontos de lentidão as razões e as possíveis alternativas para esses motoristas aí você entende agora porque que o ex Porque que o Google Maps consegue te Direcionar para cada lugar eles estão cruzando dados históricos de trânsito por horário e etc e conseguem customizar esse direcionamento ali para os motoristas e para os passageiros quinto
-Trecho 34: Danone ao lançar o iogurte grego no mercado a Danone enfrentou um enorme problema com a validade do produto que é bastante curto obviamente porque é um produto ali perecível e acaba tendo uma validade muito curta e aí eles usaram o Big Data como um um dado muito importante como uma ferramenta muito importante para entender o melhor comportamento de seus consumidores e passar a realizar a entrega para as redes de varejo com melhor sincronia dessa data e aí diminuindo o gasto com produtos vencidos hoje você conheceu o que é big
-Trecho 35: como funciona a estruturação dos
-Trecho 36: as vantagens desse sistema e como algumas empresas obtiveram sucesso com essa adoção
-Trecho 37: de estratégia muito bem definida tá esperando o quê para começar a aplicar todo esse conhecimento Agora mesmo na sua empresa ou também encaminhar para algum amigo seu ou para algum empreendedor ou algum executivo que tá trabalhando com isso ou quer trabalhar com isso algum estuda
-Trecho 38: tem procurado bastante conhecimento para entender cada vez mais sobre isso se você gostou deixa aquele like se inscreva aqui no canal e também ative as notificações para ser o primeiro a receber conteúdos como esse tá bom não esquece de compartilhar
-Trecho 39: esse vídeo com seus amigos que eu que eu tenho certeza que se a gente colher quanto mais feedbacks aqui para o nosso canal mas a gente vai trazer conhecimento para vocês agora expande o seu conhecimento encontre o direcionamento ideal na Nova Era dos dados faça parte ativa nesse novo momento da transformação digital até o próximo vídeo aqui na era dos dados
+Trecho 1: Olá a todos Este trabalho foi realizado pelos alunos Rafael Maia Isoldi Rodrigue
+Trecho 2: Vamos explorar as oportunidades que a yá generativa oferece para profissionais em análise e desenvolvimento de sistemas
+Trecho 3: nosso objetivo é mostrar como Essas tecnologias podem transformar e otimizar nosso trabalho
+Trecho 4: oportunidades no uso da iage negativa
+Trecho 5: pode automatizar tarefas repetitivas liberando o tempo para atividades mais complexas e criativas
+Trecho 6: ela também pode gerar e documentar código de forma eficiente
+Trecho 7: agilizando o desenvolvimento de software e melhorando a qualidade da documentação
+Trecho 8: aprimoramento da análise de da
+Trecho 9: com a ia podemos identificar padrões e obterem sites valiosos a partir de grandes volumes de dados
+Trecho 10: isso nos permite prever falhas e anomalias antes que causem problemas maiores melhorando a manutenção preventiva e a segurança do sistema
+Trecho 11: desenvolvimento de sistemas inteligentes
+Trecho 12: a&a facilita a criação de chatbots e assistentes virtuais que melhoram a experiência do usuário e otimizam o atendimento ao cliente
+Trecho 13: Além disso é um alimento sistemas de recomendação que personalizam produtos e serviços para os usuários impulsionando a Inovação com novas soluções tecnológicas
+Trecho 14: considerações importantes
+Trecho 15: é crucial entender que a ia é uma ferramenta de auxílio não uma substituição para profissionais
+Trecho 16: uso responsável e ético da ia é essencial assim como a preparação adequada para utilizar e interpretar os resultados gerados por Essas tecnologias
+Trecho 17: pergunta polêmica
+Trecho 18: muitas pessoas se perguntam se a ia vai nos substituir no futuro
+Trecho 19: a resposta é
+Trecho 20: Inaudível
+Trecho 21: claro que
+Trecho 22: Fiquem tranquilos pois ya não substituirá os profissionais pelo contrário ela é uma ferramenta poderosa que aumentará nossas capacidades permitindo-nos trabalhar de forma mais eficiente e criativa
+Trecho 23: conclusão
+Trecho 24: para concluir a ia deve ser vista como uma ferramenta de auxílio que quando usada de forma responsável e ética pode transformar positivamente o nosso trabalho
+Trecho 25: a preparação e o entendimento sobre como utilizar e interpretar a ia são fundamentais para aproveitarmos ao máximo suas capacidades
+Trecho 26: Inaudível
+Trecho 27: Inaudível
+Trecho 28: Inaudível
+Trecho 29: Inaudível
+Trecho 30: criar
+Trecho 31: Inaudível
+Trecho 32: eu errei
+Trecho 33: mensagem no código
+Trecho 34: Inaudível
+Trecho 35: falta
+Trecho 36: Inaudível
+Trecho 37: valor
+Trecho 38: Inaudível
+Trecho 39: Inaudível
+Trecho 40: Inaudível
+Trecho 41: Inaudível
+Trecho 42: código
+Trecho 43: agora vou excluir
+Trecho 44: Inaudível
+Trecho 45: Inaudível
+Trecho 46: Inaudível
+Trecho 47: agora ao invés
+Trecho 48: Inaudível
+Trecho 49: Inaudível
+Trecho 50: Inaudível
+Trecho 51: Inaudível
+Trecho 52: agora
+Trecho 53: Inaudível
+Trecho 54: Inaudível
+Trecho 55: Inaudível
+Trecho 56: eu fiz
+Trecho 57: Inaudível
+Trecho 58: Inaudível
+Trecho 59: Inaudível
+Trecho 60: Inaudível
+Trecho 61: Inaudível
+Trecho 62: para lá criar
+Trecho 63: inteiro
+Trecho 64: agradecimento gostaríamos de agradecer a todos pela atenção Hã poxa vida
+Trecho 65: Quase esqueci de me apresentar
+Trecho 66: eu sou a Cláudia a apresentadora virtual criada especialmente para esta apresentação
+Trecho 67: uma curiosidade
+Trecho 68: meu nome vem da junção de Cláudia que significa nuvem e
+Trecho 69: de inteligência artificial
+Trecho 70: assim como a Iara que discutimos hoje estou aqui para ajudar e tornar as coisas mais interessantes
+Trecho 71: foi um prazer compartilhar essas informações com vocês
+Trecho 72: obrigado e até a próxima

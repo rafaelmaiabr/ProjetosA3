@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Transcrição de Vídeo</title>
+  <link rel="stylesheet" href="./templates/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./templates/dist/fontawesome-free-6.7.0-web/css/all.css">
+</head>
+
+<body>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-8">
+        <div class="input-group">
+          <input type="file" id="fileInput" class="form-control">
+          <div class="input-group-append">
+            <button id="upload" class="btn btn-success">Novo Arquivo</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 text-end">
+        <h2>Servidor <small id="serverStatus" class=""></small></h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Video</th>
+              <th>Áudio</th>
+              <th>Transcrição</th>
+            </tr>
+          </thead>
+          <tbody id="documentList">
+            <tr>
+              <td colspan="4">Nenhum documento encontrado</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+
+<!--Modal Ajax-->
+<div class="modal fade" id="modalAjax" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="modalAjaxLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalAjaxLabel">Titulo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Conteúdo
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./templates/js/bootstrap.min.js"></script>
+<script src="./templates/js/functions.js"></script>
+ 
+</body>
+
+</html>
