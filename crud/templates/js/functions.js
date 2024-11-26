@@ -51,6 +51,7 @@ async function fetchDocuments() {
     try {
       const response = await fetch('http://localhost:5000/files');
       console.log('Response status:', response.status); // Log do status da resposta
+      console.log('Response OK:', response.ok); // Log do status da resposta
 
       if (!response.ok) {
         throw new Error('Erro ao obter a lista de documentos.');
@@ -118,7 +119,7 @@ async function fetchDocuments() {
         documentList.innerHTML = rows;
     } catch (error) {
       console.error('Erro:', error);
-      alert('Erro ao obter a lista de documentos.');
+      // alert('Erro ao obter a lista de documentos.');
     }
   }
 
@@ -228,7 +229,7 @@ function converter(fileName) {
     body: JSON.stringify(requestBody),
   })
   .then(response => {
-      console.log(response)
+      console.log(`Conversão: ${response.ok} - ${response.statusText}`);
       if (!response.ok) {
         throw new Error('Erro ao converter o arquivo.');
       }
@@ -242,7 +243,7 @@ function converter(fileName) {
     .catch(error => {
 
       console.error('Erro:', error);
-      alert('Erro ao converter o arquivo.');
+      // alert('Erro ao converter o arquivo.' + error);
     });
 }
 
@@ -315,6 +316,8 @@ document.getElementById('modalAjax').addEventListener('hide.bs.modal', function 
 
 // Verifica o status do servidor ao carregar a página
 window.onload = function () {
+  console.log("Verificando status do servidor...");
   checkServerStatus();
+  console.log("Carregando documentos...");
   fetchDocuments(); // Obtém a lista de documentos ao carregar a página
 };
