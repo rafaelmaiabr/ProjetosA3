@@ -12,22 +12,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <!-- site metas -->
-  <title>Modol</title>
+  <title>Landingpage TurismoRJ - A3 IBMR</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- bootstrap css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <!-- style css -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- Responsive-->
   <link rel="stylesheet" href="css/responsive.css">
-  <!-- favicon -->
   <link rel="icon" href="img/favicon.png" type="image/gif" />
-  <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-  <!-- Tweaks for older IEs-->
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="./../crud/templates/dist/fontawesome-free-6.7.0-web/css/all.css">
 </head>
 
 <body>
@@ -112,6 +106,11 @@
                   <h3 class="introduction_text">Carnaval</h3>
                   <p class="lorem_text">Sinta a energia do maior espetáculo da Terra! Participe da festa e da cultura brasileira no Sambódromo, onde as escolas
                   de samba desfilam em uma celebração de cores, música e alegria</p>
+                  <p>
+                    <button class="btn btn-primary" data-type="reserva" data-content="Carnaval" data-bs-toggle="modal" data-bs-target="#modalAjax">
+                        <i class="fa fa-shop"></i> Reservar
+                    </button>
+                  </p>
                 </div>
                 <div class="col-md-4">
                   <div class="hover01 column">
@@ -121,6 +120,12 @@
                   <p class="lorem_text">Explore um dos ícones do Rio de Janeiro! Uma experiência única no alto do Corcovado, com vistas espetaculares da cidade
                   maravilhosa. Venha vivenciar essa maravilha do mundo moderno.
                   </p>
+                  <p>
+                    <button class="btn btn-primary" data-type="reserva" data-content="Cristo Redentor" data-bs-toggle="modal"
+                      data-bs-target="#modalAjax">
+                      <i class="fa fa-shop"></i> Reservar
+                    </button>
+                  </p>
                 </div>
                 <div class="col-md-4">
                   <div class="hover01 column">
@@ -129,6 +134,12 @@
                   <h3 class="introduction_text">Pão de Açucar</h3>
                   <p class="lorem_text">Suba no famoso bondinho e aprecie o visual incrível das praias, da baía de Guanabara e das montanhas cariocas. Um
                   passeio imperdível que encanta turistas do mundo inteiro.
+                  </p>
+                  <p>
+                    <button class="btn btn-primary" data-type="reserva" data-content="Pão de Açucar" data-bs-toggle="modal"
+                      data-bs-target="#modalAjax">
+                      <i class="fa fa-shop"></i> Reservar
+                    </button>
                   </p>
                 </div>
 
@@ -234,17 +245,54 @@
     </p>
   </div>
   </div>
+
+  <!--Modal Ajax-->
+  <div class="modal fade" id="modalAjax" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="modalAjaxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalAjaxLabel">Titulo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mail_section_1">
+                <input type="hidden" id="tour_type" name="type">
+                <input type="text" class="mail_text" id="tour_name" placeholder="Digite seu nome" name="name" required>
+                <input type="text" class="mail_text" id="tour_phone" placeholder="(ddd) + número" name="phone">
+                <input type="text" class="mail_text" id="tour_email" placeholder="Email" name="email">
+                <input type="number" class="mail_text" id="tour_qnt" placeholder="Quantidade de pessoas" name="qnt">
+                <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="tour_message" name="message"></textarea>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancelar</button>
+          <button type="button" class="btn btn-primary" onclick="send_form()">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- copyright section end -->
   <!-- Javascript files-->
+  <script src="./../crud/templates/js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery-3.0.0.min.js"></script>
-  <script src="js/plugin.js"></script>
+
   <script src="js/scripts.js"></script>
   <!-- sidebar -->
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="js/custom.js"></script>
   <!-- javascript -->
   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
   <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
